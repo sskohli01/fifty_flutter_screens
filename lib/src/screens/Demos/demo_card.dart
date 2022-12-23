@@ -43,7 +43,7 @@ class _DemoCardState extends State<DemoCard> {
               ),
             ]),*/
             SizedBox(
-              height: 350,
+              height: 200,
               width: double.infinity,
               child: Image(
                 image: AssetImage(widget.demo.imgURL),

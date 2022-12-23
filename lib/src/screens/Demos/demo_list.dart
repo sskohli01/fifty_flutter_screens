@@ -24,7 +24,7 @@ class DemoList extends StatelessWidget {
                 return Padding(
                   padding: const EdgeInsets.all(5.0),
                   child: InkWell(
-                    onTap: () => context.goNamed(demo.routeName),
+                    onTap: () => context.pushNamed(demo.routeName),
                     child: DemoCard(demo: demo),
                   ),
                 );

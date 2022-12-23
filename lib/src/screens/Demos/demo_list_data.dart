@@ -1,8 +1,18 @@
 const demoData = [
   {
+    'title': 'Progress Steps',
+    'imgURL': 'assets/expanding_cards.gif',
+    'route_name': 'progress_steps'
+  },
+  {
     'title': 'Expanding Cards',
     'imgURL': 'assets/expanding_cards.gif',
     'route_name': 'expanding_cards'
+  },
+  {
+    'title': 'Rotating Navigation',
+    'imgURL': 'assets/expanding_cards.gif',
+    'route_name': 'rotating_navigation'
   },
 ];
 

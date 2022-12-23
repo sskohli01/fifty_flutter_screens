@@ -42,7 +42,7 @@ class _ExpandingCardsState extends State<ExpandingCards> {
       appBar: AppBar(
         title: const Text('Expanding Cards'),
         leading: IconButton(
-          onPressed: () => context.go('/'),
+          onPressed: () => context.pop(),
           icon: const Icon(Icons.arrow_back_ios_new),
         ),
       ),
